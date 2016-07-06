@@ -2,7 +2,7 @@
 layout: post
 title: Download all the videos from Build 2015
 date: 2015-05-11 17:25:00
-categories: [Gadgets,IOT,Kinect,Windows-10,Windows-8,Windows-Phone]
+categories: [Gadgets,IOT,Kinect,Windows-10,Windows-Phone]
 author: Jimmy Engström
 tags: []
 hide: false

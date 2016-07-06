@@ -2,7 +2,7 @@
 layout: post
 title: Controlling an iKettle with Windows phone
 date: 2014-06-06 23:15:00
-categories: [Gadgets,Windows-8,Windows-Phone]
+categories: [Gadgets,Windows-Phone]
 author: Jimmy Engström
 tags: []
 hide: false
