@@ -1,0 +1,26 @@
+---
+layout: post
+title: Deep zoom
+date: 2009-07-19 20:15:00
+categories: []
+author: Jimmy
+tags: []
+hide: false
+---
+<p>
+Fr&aring;n Microsoft Research (de h&auml;r lirarna ligger verkligen i) s&aring; kommer Deep Zoom Composer, ett program&nbsp;som bryter upp bilder i olika zoom niv&aring;er s&aring; man kan l&auml;gga upp oerh&ouml;rt h&ouml;guppl&ouml;sta bilder och visa dem p&aring; webben.<br />
+Programmet &auml;r gratis att ladda ner och det finns ett antal olika s&auml;tt att via resultatet p&aring; (Ajax och silverlight i olika versioner).<br />
+Jag tog ett urval fr&aring;n v&aring;ra br&ouml;llopsbilder och skapade en Deep zoom web.<br />
+Webben som s&aring;dan &auml;r v&auml;ldigt lik den man f&aring;rfr&aring;n Deep Zoom Composer&nbsp;men jag gjorde n&aring;gra mindre &auml;ndringar f&ouml;r att den skulle st&ouml;dja fler &auml;n en kategori och n&aring;gra layoutjusteringar.<br />
+<br />
+Det finns ett program som heter <a href="http://deepzoompublisher.com/TagUpdater/" target="_blank" title="TagUpdater">TagUpdater </a>som tar kategorierna fr&aring;n repektive bild (om man taggat upp dem sedan tidigare) och l&auml;gger in dem i kategorifilen som webben sen anv&auml;nder n&auml;r den ska visa bilderna. 
+</p>
+<p>
+Edit: Har lagt upp den p&aring; bloggen <a href="http://apeoholic.se/weddingimages">http://apeoholic.se/weddingimages</a>
+</p>
+<p>
+<br />
+<br />
+Webben ligger p&aring; v&aring;r server hemma s&aring; den kan vara nere ibland. 
+</p>
+

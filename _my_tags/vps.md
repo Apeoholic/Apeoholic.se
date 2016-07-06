@@ -1,0 +1,4 @@
+---
+name: vps
+slug: vps
+---

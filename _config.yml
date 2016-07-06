@@ -1,0 +1,76 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+gems: ["jekyll-paginate"]
+
+collections:
+  my_categories:
+    output: true
+    permalink: /blog/category/:name/
+  my_tags:
+    output: true
+    permalink: /blog/tag/:name/
+
+#Pageination
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+
+
+
+title: Jimmy Engström's blog
+email: jimmy@apeoholic.se
+description: > # this means to ignore newlines until "baseurl:"
+  
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://apeoholic.se" # the base hostname & protocol for your site
+twitter_username: apeoholic
+facebook_username: apeoholic
+googleplus_username: JimmyEngströmApeoholic
+linkedin_username: apeoholic
+github_username:  apeoholic
+blogname: Jimmy Engström
+subtitle: 
+googleanalytics: UA-45661394-1
+googleanalytics_site: apeoholic.se 
+# Build settings
+markdown: kramdown
+
+
+url: http://apeoholic.se
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  -
+    scope:
+      path: ""
+      type: my_categories
+    values:
+      layout: blog_by_category
+  -
+    scope:
+      path: ""
+      type: my_tags
+    values:
+      layout: blog_by_tag
+  -
+    scope:
+      path: "project"
+    values:
+      layout: project

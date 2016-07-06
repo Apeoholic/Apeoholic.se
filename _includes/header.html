@@ -1,0 +1,41 @@
+  <header class="Header">
+            <div class="First-Line">
+                <div class="Container">
+                    <nav class="Nav-Header">
+                        <ul>
+                            <li><a href="/" rel="home"><span>Home</span></a></li>
+                            {% for category in site.my_categories %}
+                            <li><a href="{{category.url}}">{{category.name}}</a></li>
+    
+                          {%endfor%}
+                      </ul>
+                    </nav>
+
+                    <div id="searchbox">
+                        <form method="get" action="/search" data-search-form style="v-align:right">
+                            <label for="searchfield" style="display:none">Search</label><input type="text" value="Enter search term" id="q"  name="q" onfocus="if(this.value == 'Enter search term') { this.value = ''; }" onkeydown="if (event.keyCode == 13) { this.form.submit(); return false; }"/><input type="button" value="Search" id="searchbutton"/>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="Second-Line">
+                <div class="Container">
+                    <hgroup>
+                        <h1>{{ site.blogname }}</h1>
+                        <h2>{{ site.subtitle }}</h2>
+                    </hgroup>
+                    <nav class="Blog-Social">
+                        <ul>
+                            <li><a href="/feed.xml"><img src="/img/RSS.png" /></a></li>
+                            <li><a href="http://www.facebook.com/{{site.facebook_username}}"><img src="/img/facebook.png" /></a></li>
+                            <li><a href="https://plus.google.com/{{site.googleplus_username}}?rel=author"><img src="/img/googleplus.png" /></a></li>
+                            <li><a href="http://twitter.com/{{site.twitter_username}}"><img src="/img/twitter.png" /></a></li>
+                            <li><a href="http://se.linkedin.com/in/{{site.linkedin_username}}/"><img src="/img/Linkedin.png" /></a></li>
+
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+            <a href="#" class="btn-nav">NAVIGATION</a>
+        </header>

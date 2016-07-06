@@ -1,0 +1,12 @@
+---
+layout: post
+title: 3d Bsg tårta
+date: 2009-03-22 22:33:00
+categories: [Other]
+author: Jimmy Engström
+tags: [3d]
+hide: false
+---
+<p>Jag passade p&aring; att ta n&aring;gra bilder med ett enkelt legobygge jag gjort som g&ouml;r att jag kan g&ouml;ra 3d bilder.</p>
+<p><img src="/PostImages/2009/3/BattlestarAnaglyphsmall.jpg" alt="" width="316" height="245" /></p>
+<p><a href="/file.axd?file=2009/3/BattlestarAnaglyph.jpg">BattlestarAnaglyph.jpg (680,15 kb)</a></p>
