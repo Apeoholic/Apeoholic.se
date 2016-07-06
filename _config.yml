@@ -7,7 +7,7 @@
 
 # Site settings
 gems: 
-  -jekyll-paginate
+  - jekyll-paginate
 
 collections:
   my_categories:
