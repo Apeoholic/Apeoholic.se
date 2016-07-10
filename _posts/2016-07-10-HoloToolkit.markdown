@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Announcing http://holotoolkit.azurewebsites.net
-date: 2016-07-10 21:00:00
+date: 2016-07-10 17:00:00
 categories: [HoloLens]
 author: Jimmy Engström
 tags: [HoloLens,Azure,Unity]
