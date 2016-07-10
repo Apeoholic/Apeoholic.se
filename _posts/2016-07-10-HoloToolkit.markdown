@@ -15,6 +15,6 @@ You can get the HoloToolkit as a UnityPackage here:
 [http://holotoolkit.azurewebsites.net/][1]   
    
 Enjoy =)   
-
+ 
 
 [1]: http://holotoolkit.azurewebsites.net/
