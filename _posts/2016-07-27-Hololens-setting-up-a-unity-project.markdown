@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 
+title: Setting up a HoloLens Unity project
 date: 2016-07-27 10:00:00
 categories: [HoloLens]
 author: Jimmy Engström
