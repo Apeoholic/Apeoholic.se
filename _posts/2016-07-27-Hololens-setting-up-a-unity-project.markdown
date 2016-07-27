@@ -12,18 +12,18 @@ This post will cover what you need to do to setup a Unity project to work on Hol
 &nbsp;   
 I have had the opportunity to work with HoloLens for a while now and I should share some of my tips and tricks.   
 &nbsp;  
-### The Tools   
+###The Tools   
 You need Unity installed on your computer, follow the instructions here:   
 [http://unity3d.com/pages/windows/hololens][1]   
 &nbsp;   
 While you&#39;re at it, I would also recommend installing Visual Studio 2015 and the HoloLens emulator (not needed for this blog post).   
 [https://developer.microsoft.com/en-us/windows/holographic/install_the_tools][2]   
 &nbsp;  
-### Setting things up   
+###Setting things up   
 Let&#39;s take a look at what you need to do to set everything up.   
 I will show a really simple way to do that.    
 &nbsp;  
-#### Create new project    
+####Create new project    
 Start with creating a new Unity project.   
 [![clip_image001.png][3]][3]   
 &nbsp;   
@@ -34,7 +34,7 @@ Name it something, in my case I named it DemoProject
 &nbsp;   
 Unity will now create our world.   
 &nbsp;  
-#### HoloToolkit    
+####HoloToolkit    
 Microsoft also provides HoloToolkit, a library containing a lot of useful components you can use when building HoloLens apps, you also get a couple of menu items that automatically make the changes you need.   
 You can download it from HoloToolkit.azurewebsites.net (or from github).   
 This will show a list of files to be imported, just click Import and the installation will take care of everything,   
