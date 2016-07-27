@@ -60,9 +60,9 @@ You can also read more [here][8]
 
 [1]: http://unity3d.com/pages/windows/hololens
 [2]: https://developer.microsoft.com/en-us/windows/holographic/install_the_tools
-[3]: /PostImages/07/clip_image001.png "clip_image001.png"
-[4]: /PostImages/07/clip_image002.png "clip_image002.png"
-[5]: /PostImages/07/clip_image003.gif "clip_image003.gif"
-[6]: /PostImages/07/clip_image004.png "clip_image004.png"
+[3]: /PostImages/2016/07/clip_image001.png "clip_image001.png"
+[4]: /PostImages/2016/07/clip_image002.png "clip_image002.png"
+[5]: /PostImages/2016/07/clip_image003.gif "clip_image003.gif"
+[6]: /PostImages/2016/07/clip_image004.png "clip_image004.png"
 [7]: http://sharpgis.net/post/2016/04/10/Creating-your-very-first-holographic-app-in-Unity
 [8]: https://developer.microsoft.com/en-us/windows/holographic/unity_development_overview#configuring_a_unity_project_for_hololens
