@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Setting up source control for a HoloLens Unity project
-date: 2016-09-19 10:00:00
+date: 2016-09-19 08:00:00
 categories: [HoloLens]
 author: Jimmy Engström
 tags: [HoloLens]
