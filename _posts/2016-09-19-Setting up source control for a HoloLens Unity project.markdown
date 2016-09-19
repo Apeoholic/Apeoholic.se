@@ -9,14 +9,14 @@ hide: false
 ---
 
 
-## Don&#39;t source control generated files
+### Don&#39;t source control generated files
 
 When source controlling your Unity HoloLens project there is no reason to save the generated code since it is generated =)   
 Unity won&#39;t replace some of the generated files so if you for example change icons/tiles in the Unity project, those part will not be replaced when generating the code again.   
-A good practice is to export to new folders every time unless you know you haven&#39;t changed anything.   
+A good practice is to export to new folders every time.   
 &nbsp;   
 
-## .Gitignore
+### .Gitignore
 
 There are only a couple of folders worth adding to source control.   
 When setting up your project for the first time, just add the .gitignore file from here:   
@@ -31,10 +31,9 @@ You can also do this when creating a new project on GitHub.
 
 ## Setting up your project    
 Go to Edit -&gt; Project Settings -&gt; Editor    
-To make source control work the most hassle free you should make sure version control has visible meta files (or hidden meta files, if you don&#39;t want to see them in Windows Explorer).   
+To make source control work hassle free, you should make sure version control has visible meta files (or hidden meta files, if you don&#39;t want to see them in Windows Explorer).   
 It will add a meta file for each asset in you project, this will make sure that only the asset and the meta files gets tagged as changed if you change an asset, otherwise the whole folder would be tagged as changed.    
-Also make sure Asset serialization -&gt; Mode is set to &quot;Force Text&quot; this will make source control work much better.   
-It is better to work with text files instead of binary files.   
+Also make sure Asset serialization -&gt; Mode is set to &quot;Force Text&quot; this will make your source control handle diffs (text is easier to handle than binary-files.   
 Using the Hololens toolkit [http://www.apeoholic.se/hololens/2016/07/27/setting-up-a-hololens-unity-project.html][3] will change these settings for you.   
 &nbsp;   
 [![clip_image002.png][4]][4]   
