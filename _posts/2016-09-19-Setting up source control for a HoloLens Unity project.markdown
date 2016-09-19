@@ -29,7 +29,7 @@ You can also do this when creating a new project on GitHub.
 &nbsp;   
 &nbsp;   
 
-## Setting up your project    
+### Setting up your project    
 Go to Edit -&gt; Project Settings -&gt; Editor    
 To make source control work hassle free, you should make sure version control has visible meta files (or hidden meta files, if you don&#39;t want to see them in Windows Explorer).   
 It will add a meta file for each asset in you project, this will make sure that only the asset and the meta files gets tagged as changed if you change an asset, otherwise the whole folder would be tagged as changed.    
