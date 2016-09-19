@@ -40,7 +40,7 @@ Using the Hololens toolkit [http://www.apeoholic.se/hololens/2016/07/27/setting-
 
 
 [1]: https://github.com/github/gitignore/blob/master/Unity.gitignore
-[2]: ../PostImages/2016/09/yzuxsdvl.lse.png "clip_image001.png"
+[2]: ./PostImages/2016/09/yzuxsdvl.lse.png "clip_image001.png"
 [3]: http://www.apeoholic.se/hololens/2016/07/27/setting-up-a-hololens-unity-project.html
-[4]: ../PostImages/2016/09/zpbh3byk.jhh.png "clip_image002.png"
+[4]: ./PostImages/2016/09/zpbh3byk.jhh.png "clip_image002.png"
 [5]: https://developer.microsoft.com/sv-se/windows/holographic/best_practices_for_working_with_unity_and_visual_studio
