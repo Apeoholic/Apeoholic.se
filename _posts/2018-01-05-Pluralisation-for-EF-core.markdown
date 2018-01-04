@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Setting up source control for a HoloLens Unity project
-date: 2018-01-05 08:00:00
+title: Pluralization for Entity Framework Core
+date: 2018-01-04 08:00:00
 categories: [Entity Framework Core]
 author: Jimmy Engström
 tags: [Entity Framework Core]
