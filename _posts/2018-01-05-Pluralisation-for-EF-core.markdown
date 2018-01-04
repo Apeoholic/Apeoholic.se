@@ -13,7 +13,7 @@ I recently started working with .NET Core and I found myself really not liking E
 Regardless of the way I named my tables (Singular or Plural) the table collection or the name of the class was generated "wrong".
 I prefer my class names n singular and my collections in plural (I hope you agree with me).  
 In Entity Framework Core, Microsoft removed the automatic pluralization/singularization of classes and collections which I really didn't like.  
-They did however give us the oppurtunity to hook in our own.
+They did however give us the opportunity to hook in our own.
 This is talked about in this [StackOverflow post](https://stackoverflow.com/questions/39281647/entityframework-core-database-first-approach-pluralizing-table-names/47410837#47410837)
 
 
