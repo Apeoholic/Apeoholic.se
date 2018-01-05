@@ -5,19 +5,16 @@ date: 2018-01-04 08:00:00
 categories: [Entity Framework Core]
 author: Jimmy Engström
 tags: [Entity Framework Core]
-hide: true
+hide: false
 ---
 
 
-I recently started working with .NET Core and I found myself really not liking Entity Framework Core.  
-Regardless of the way I named my tables (Singular or Plural) the table collection or the name of the class was generated "wrong".
-I prefer my class names n singular and my collections in plural (I hope you agree with me).  
-In Entity Framework Core, Microsoft removed the automatic pluralization/singularization of classes and collections which I really didn't like.  
+I recently started working with .NET Core and I didn't like that Microsoft removed the automatic pluralization/singularization of classes and collection in Entity Framework Core.
 They did however give us the opportunity to hook in our own.
 This is talked about in this [StackOverflow post](https://stackoverflow.com/questions/39281647/entityframework-core-database-first-approach-pluralizing-table-names/47410837#47410837)
 
 
-What you need to do is to add a couple of files to your Entity Framework project.
+What you need to do is to add a couple of files to your Entity Framework Core project.
 
 I created a folder named "Pluralize" and added a PluralizationService.
 I choose to modify the one Microsoft provided in previous versions of Entity Framework found [here](https://github.com/Microsoft/referencesource/blob/master/System.Data.Entity.Design/System/Data/Entity/Design/PluralizationService/EnglishPluralizationService.cs).  
