@@ -1,4 +1,4 @@
-  ---
+---
 layout: post
 title: Pluralization for Entity Framework Core Nuget
 date: 2018-04-10 08:00:00
