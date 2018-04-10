@@ -8,6 +8,8 @@ tags: [Entity Framework Core]
 hide: false
 ---
 
+[![Nuget](https://img.shields.io/nuget/v/EntityFrameworkCore.Pluralize.svg?style=flat-square)](https://www.nuget.org/packages/EntityFrameworkCore.Pluralize/)
+
 In one of the projects I work on we run database first, but with EF core the class names was terrible, no pluralization, no singularization.<br/>
 [See previous post](www.apeoholic.se/entity%20framework%20core/2018/01/04/Pluralisation-for-EF-core.html)
 
