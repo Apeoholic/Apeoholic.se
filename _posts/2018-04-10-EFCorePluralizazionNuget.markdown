@@ -21,5 +21,3 @@ I wanted to simplify this more so I created a nuget package so now the only thin
 3. Run dotnet ef scaffold...... and everything will be named correctly =)
 
 If some translations are missing, please do a PR or contact me and I will add them.
-
-test
