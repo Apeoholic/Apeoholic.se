@@ -133,15 +133,13 @@ Now we have a connection to our watch, let&#39;s write our first app.
  2. In the solution explorer select MainPage.xaml  
  3. Look for &quot;Welcome to Xamarin.Forms!&quot; and change it to something else &quot;Hello World from Tizen&quot;.  
  4. In the solution explorer right click on your project select properties.  
- 5. Goto Tools-&gt;Tizen -&gt; Tizen Certificate Manager    
-   
+ 5. Goto Tools-&gt;Tizen -&gt; Tizen Certificate Manager  
 [![clip_image019.png][20]][20]  
  6. Just press ok if you don&#39;t have any previous profiles  
  7. Click the +  
  8. Choose Samsung    
  [![clip_image020.png][21]][21]   
 9. Choose Mobile/Wearable    
-   
 [![clip_image021.png][22]][22]  
  10. Name your profile  
  [![clip_image022.png][23]][23]  
