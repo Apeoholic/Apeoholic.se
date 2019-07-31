@@ -128,8 +128,6 @@ Now we have a connection to our watch, let&#39;s write our first app.
 ### Your first app 
  
  1. In Visual Studio, create a new project use the template Tizen Wearable Xaml App   
- &nbsp;   
-   
 [![clip_image018.png][19]][19]  
  2. In the solution explorer select MainPage.xaml  
  3. Look for &quot;Welcome to Xamarin.Forms!&quot; and change it to something else &quot;Hello World from Tizen&quot;.  
@@ -140,12 +138,12 @@ Now we have a connection to our watch, let&#39;s write our first app.
  6. Just press ok if you don&#39;t have any previous profiles  
  7. Click the +  
  8. Choose Samsung    
- [![clip_image020.png][21]][21] 
+ [![clip_image020.png][21]][21]   
 9. Choose Mobile/Wearable    
    
 [![clip_image021.png][22]][22]  
  10. Name your profile  
- [![clip_image022.png][23]][23] 
+ [![clip_image022.png][23]][23]  
  11. Create a new author certificate    
    
 [![clip_image023.png][24]][24]  
