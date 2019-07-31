@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting started with Xamarin and Samsung Gear/Galaxy
-date: 2019-07-31T08:00:00.000+00:00
+date: 2019-07-30T06:00:00.000+00:00
 categories:
 - Xamarin
 author: Jimmy Engström
