@@ -35,7 +35,7 @@ Download and install [Java SE Runtime Environment 8 ][2](you&#39;ll have to crea
  3. Search for &quot;Visual Studio Tools for Tizen&quot; and click download   
  &nbsp;   
    
-[![clip_image002.png][3]][3]
+[![clip_image002.png][3]][3]  
 4. Restart Visual Studio    
    
 Now you should have a menu Tools -&gt;Tizen  
