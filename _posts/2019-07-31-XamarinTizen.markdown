@@ -120,13 +120,13 @@ Ok we have a developer unlocked and WIFI connected watch and we have Visual Stud
  &nbsp;   
    
 [![clip_image016.png][17]][17]   
-&nbsp;   
-Now we have a connection to our watch, let&#39;s write our first app.   
+
  &nbsp;   
 [![clip_image017.png][18]][18]   
 
-### Your first app 
- 
+### Your first app
+
+Now we have a connection to our watch, let&#39;s write our first app.   
  1. In Visual Studio, create a new project use the template Tizen Wearable Xaml App   
 [![clip_image018.png][19]][19]  
  2. In the solution explorer select MainPage.xaml  
