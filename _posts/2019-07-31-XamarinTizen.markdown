@@ -36,7 +36,6 @@ Download and install [Java SE Runtime Environment 8 ][2](you&#39;ll have to crea
  &nbsp;   
    
 [![clip_image002.png][3]][3]
- 
 4. Restart Visual Studio    
    
 Now you should have a menu Tools -&gt;Tizen  
@@ -63,10 +62,11 @@ Click Install to the right of 4.0 Wearable
 &nbsp;   
 &nbsp;   
 Now the Tizen SDK is installed   
-Time to get the watch into developer mode.   
+
 
 ### Setting up developer mode on your watch
 
+Time to get the watch into developer mode.   
  1. On your watch go to settings  
  2. Go to About watch    
    
@@ -98,7 +98,8 @@ The easiest way during development is probably to use the emulator, but I want m
  Take a note of it we will use it later.  
  Remember having WIFI tuned on will drain your battery so make sure you have a charger near by.    
    
-&nbsp; Putting it together   
+### Putting it together
+
 Ok we have a developer unlocked and WIFI connected watch and we have Visual Studio all set up, let&#39;s put it together.  
  1. Go back to Visual Studio  
  2. Click Tools -&gt; Tizen -&gt; Tizen Device Manager   
@@ -165,9 +166,9 @@ It should find your profile automatically
  17. Click OK  
  18. Check the deployment is your watch  
  &nbsp; 
- 19. [![clip_image027.png][28]][28] 
- 20. Now press Ctrl + F5 (Run without debugging)  
- 21. Check your watch you now have &quot;MyApp&quot; (or the name you used) installed.    
+ [![clip_image027.png][28]][28] 
+ 19. Now press Ctrl + F5 (Run without debugging)  
+ 20. Check your watch you now have &quot;MyApp&quot; (or the name you used) installed.    
    
 &nbsp;   
 [![clip_image028.png][29]][29]
