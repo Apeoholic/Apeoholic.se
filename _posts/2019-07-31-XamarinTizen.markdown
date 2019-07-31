@@ -36,7 +36,8 @@ Download and install [Java SE Runtime Environment 8 ][2](you&#39;ll have to crea
  &nbsp;   
    
 [![clip_image002.png][3]][3]
- 4. Restart Visual Studio    
+ 
+4. Restart Visual Studio    
    
 Now you should have a menu Tools -&gt;Tizen  
  5. Start Tools -&gt; Tizen -&gt; Tizen Package Manager   
@@ -51,14 +52,13 @@ This will start the installation of the Tizen SDK.
 [![clip_image004.png][5]][5]   
 [![clip_image005.png][6]][6]  
  8. When the installation is done open Tools -&gt; Tizen -&gt; Tizen Package Manager again (if it didn&#39;t start)   
- &nbsp; 
- 9. I have a Samsung Gear S3 running Tizen 4.0.0.4 So I want to install ***4.0 Wearable  
-*** Click Install to the right of 4.0 Wearable   
+ 9. I have a Samsung Gear S3 running Tizen 4.0.0.4 So I want to install 4.0 Wearable  
+Click Install to the right of 4.0 Wearable   
  &nbsp;   
    
 [![clip_image006.png][7]][7]  
  10. We also need ***Samsung Certificate Extension***  which is located under Extension SDK  
- 11. [![clip_image007.png][8]][8]   
+[![clip_image007.png][8]][8]   
    
 &nbsp;   
 &nbsp;   
@@ -73,10 +73,10 @@ Time to get the watch into developer mode.
 [![clip_image008.png][9]][9]   
 &nbsp;  
  3. Go to software version  
- 4. [![clip_image009.png][10]][10]   
+ [![clip_image009.png][10]][10]   
    
 &nbsp;  
- 5. Find software version and tap it 5 times    
+ 4. Find software version and tap it 5 times    
    
 [![clip_image010.png][11]][11]   
 &nbsp;   
@@ -139,38 +139,37 @@ Now we have a connection to our watch, let&#39;s write our first app.
 [![clip_image019.png][20]][20]  
  6. Just press ok if you don&#39;t have any previous profiles  
  7. Click the +  
- 8. Choose Samsung  
- 9. [![clip_image020.png][21]][21] 
- 10. Choose Mobile/Wearable    
+ 8. Choose Samsung    
+ [![clip_image020.png][21]][21] 
+9. Choose Mobile/Wearable    
    
 [![clip_image021.png][22]][22]  
- 11. Name your profile  
- &nbsp; 
- 12. [![clip_image022.png][23]][23] 
- 13. Create a new author certificate    
+ 10. Name your profile  
+ [![clip_image022.png][23]][23] 
+ 11. Create a new author certificate    
    
 [![clip_image023.png][24]][24]  
- 14. Enter a name and password (Our company name is Azm Dev)    
+ 12. Enter a name and password (Our company name is Azm Dev)    
    
 [![clip_image024.png][25]][25]  
- 15. Sign in with your Samsung Account (if you don&#39;t have one, create one)  
- 16. Create a new Distributor certificate    
+ 13. Sign in with your Samsung Account (if you don&#39;t have one, create one)  
+ 14. Create a new Distributor certificate    
    
 [![clip_image025.png][26]][26]  
- 17. Close Tizen Certificate Manager  
- 18. Goto tools -&gt; Options -&gt; Tizen -&gt; Certification    
+ 15. Close Tizen Certificate Manager  
+ 16. Goto tools -&gt; Options -&gt; Tizen -&gt; Certification    
    
 Make sure &quot;Sign the .TPK file using the following option&quot; is checked   
 It should find your profile automatically   
  &nbsp;   
 [![clip_image026.png][27]][27]   
 &nbsp;  
- 19. Click OK  
- 20. Check the deployment is your watch  
+ 17. Click OK  
+ 18. Check the deployment is your watch  
  &nbsp; 
- 21. [![clip_image027.png][28]][28] 
- 22. Now press Ctrl + F5 (Run without debugging)  
- 23. Check your watch you now have &quot;MyApp&quot; (or the name you used) installed.    
+ 19. [![clip_image027.png][28]][28] 
+ 20. Now press Ctrl + F5 (Run without debugging)  
+ 21. Check your watch you now have &quot;MyApp&quot; (or the name you used) installed.    
    
 &nbsp;   
 [![clip_image028.png][29]][29]
