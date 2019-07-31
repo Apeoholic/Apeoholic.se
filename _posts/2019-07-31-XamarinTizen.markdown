@@ -17,12 +17,12 @@ I had heard that Xamarin was working on Tizen templates so the choice was easy.
 It took a couple of years until Xamarin support for the watch came out and by then I had other ongoing development projects.   
 But I recently decided to revisit this and see how hard it would be to develop a simple Hello World application, it wasn&#39;t as straight forward as I would have hoped, and I decided to write this post to help others get started.   
 &nbsp;   
-**Getting Visual Studio up and running**    
+### Getting Visual Studio up and running
 I like to run the latest stuff so I&#39;m running Visual Studio 2019 Preview at the time of writing.   
 Make sure you have Mobile development with .NET installed (if not run Visual Studio installer again and add it)  
  &nbsp;   
 [![clip_image001.png][1]][1]   
-&nbsp; Tizen SDK   
+### Tizen SDK   
 To get access to all the templates you need to install the Tizen SDK, Visual Studio will do this for you when you install the    
 Tizen Extension and you have to install Java JRE 8 (later versions won&#39;t work).   
 Download and install [Java SE Runtime Environment 8 ][2](you&#39;ll have to create an Oracle account if you don&#39;t have one)  
@@ -60,7 +60,7 @@ This will start the installation of the Tizen SDK.
 &nbsp;   
 Now the Tizen SDK is installed   
 Time to get the watch into developer mode.   
-&nbsp; Setting up developer mode on your watch  
+### Setting up developer mode on your watch  
  1. On your watch go to settings  
  2. Go to About watch    
    
@@ -74,7 +74,7 @@ Time to get the watch into developer mode.
    
 [![clip_image010.png][11]][11]   
 &nbsp;   
-&nbsp; Setting up WIFI   
+### Setting up WIFI   
 The easiest way during development is probably to use the emulator, but I want my app in my watch straight away.  
  1. On you watch go to Setting s  
  2. Select Connections  
@@ -116,7 +116,7 @@ Ok we have a developer unlocked and WIFI connected watch and we have Visual Stud
 Now we have a connection to our watch, let&#39;s write our first app.   
  &nbsp;   
 [![clip_image017.png][18]][18]   
-&nbsp; Your first app  
+### Your first app  
  1. In Visual Studio, create a new project use the template Tizen Wearable Xaml App   
  &nbsp;   
    
