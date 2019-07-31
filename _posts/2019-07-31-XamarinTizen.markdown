@@ -164,7 +164,7 @@ It should find your profile automatically
  17. Click OK  
  18. Check the deployment is your watch  
  &nbsp; 
- [![clip_image027.png][28]][28] 
+ [![clip_image027.png][28]][28]  
  19. Now press Ctrl + F5 (Run without debugging)  
  20. Check your watch you now have &quot;MyApp&quot; (or the name you used) installed.    
    
