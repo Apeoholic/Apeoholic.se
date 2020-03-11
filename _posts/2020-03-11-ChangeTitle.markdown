@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Blazor - Changing the title without JavaScript
-date: 2019-07-30T06:00:00.000+00:00
+date: 2020-03-11T00:00:00.000+00:00
 categories:
 - Blazor
 author: Jimmy Engström
