@@ -21,7 +21,6 @@ I decided to add the title into an AppState-class, simply because I will probabl
 
 1. Create a class called ```AppStateService``` containing:
 
-    ```csharp
         public class AppStateService: INotifyPropertyChanged
         {
             public event PropertyChangedEventHandler PropertyChanged;
@@ -46,19 +45,17 @@ I decided to add the title into an AppState-class, simply because I will probabl
                 }
             }
         }
-    ```
+
 
 2. **In Startup**  
     Add the service.
 
-    ```csharp
         services.AddScoped<AppStateService>();
-    ```
+        
 
 3. **Add HeadSection.Razor**  
 Add a Razor-component called HeadSection.razor and add the following code:
 
-    ```html
         @namespace Penser.Web.Shared.Razor
         @using System.ComponentModel
         
@@ -81,33 +78,29 @@ Add a Razor-component called HeadSection.razor and add the following code:
                 await base.OnInitializedAsync();
             }
         }
-    ```    
+
 
 4. **In Pages/_host.cshtml**
 
     Replace your head tag with
     
-    ```html
         <head>
             <component type="typeof(Penser.Web.Shared.Razor.HeadSection)" render-mode="ServerPrerendered"/>
         </head>
-    ```
+
 
 5. Now in your component inject the AppStateService
 
-    ```csharp
         @inject AppStateService
-    ```
+
 
     and set the title
 
-    ```csharp
         @code {
             protected override async Task OnInitializedAsync()
             {
                 appstate.Title = "Your title here";
             }
         }
-    ```
 
 Even though calling a JavaScript to update the title might be less code, the solution above will also allow you to add some SEO data (since the HeadSection-component is ServerPrerendered).
