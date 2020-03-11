@@ -21,7 +21,7 @@ I decided to add the title into an AppState-class, simply because I will probabl
 
 1. Create a class called ```AppStateService``` containing:
 
-```` csharp
+````csharp
     public class AppStateService: INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
@@ -58,7 +58,7 @@ I decided to add the title into an AppState-class, simply because I will probabl
 3. **Add HeadSection.Razor**  
 Add a Razor-component called HeadSection.razor and add the following code:
 
-```` html
+````html
     @namespace Penser.Web.Shared.Razor
     @using System.ComponentModel
     
@@ -87,7 +87,7 @@ Add a Razor-component called HeadSection.razor and add the following code:
 
     Replace your head tag with
     
-```` html
+````html
     <head>
         <component type="typeof(Penser.Web.Shared.Razor.HeadSection)" render-mode="ServerPrerendered"/>
     </head>
@@ -95,12 +95,13 @@ Add a Razor-component called HeadSection.razor and add the following code:
 
 5. Now in your component inject the AppStateService
 
-```` csharp
+````csharp
     @inject AppStateService
 ````
+
     and set the title
 
-```` csharp
+````csharp
     @code {
         protected override async Task OnInitializedAsync()
         {
