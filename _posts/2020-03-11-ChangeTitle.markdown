@@ -63,7 +63,6 @@ Add a Razor-component called HeadSection.razor and add the following code:
         
         <!--Whatever tags you want-->
         <title>@appstate.Title</title>
-        <base href="~/" />
         
         @code {
             protected override async Task OnInitializedAsync()
@@ -85,6 +84,7 @@ Add a Razor-component called HeadSection.razor and add the following code:
     Replace your head tag with
     
         <head>
+            <base href="~/" />
             <component type="typeof(Penser.Web.Shared.Razor.HeadSection)" render-mode="ServerPrerendered"/>
         </head>
 
