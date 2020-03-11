@@ -48,7 +48,7 @@ I decided to add the title into an AppState-class, simply because I will probabl
 
 
 2. **In Startup**  
-    Add the service.
+    Add the service to dependency injection.
 
         services.AddScoped<AppStateService>();
         
