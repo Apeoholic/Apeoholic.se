@@ -21,93 +21,93 @@ I decided to add the title into an AppState-class, simply because I will probabl
 
 1. Create a class called ```AppStateService``` containing:
 
-````csharp
-    public class AppStateService: INotifyPropertyChanged
-    {
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
+    ```csharp
+        public class AppStateService: INotifyPropertyChanged
         {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
-
-        private string Title;
-
-        public string Title
-        {
-            get
+            public event PropertyChangedEventHandler PropertyChanged;
+    
+            protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
             {
-                return title;
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
             }
-            set
+    
+            private string Title;
+    
+            public string Title
             {
-                title = value;
-                OnPropertyChanged();
+                get
+                {
+                    return title;
+                }
+                set
+                {
+                    title = value;
+                    OnPropertyChanged();
+                }
             }
         }
-    }
-````
+    ```
 
 2. **In Startup**  
     Add the service.
 
-```csharp
-    services.AddScoped<AppStateService>();
-```
+    ```csharp
+        services.AddScoped<AppStateService>();
+    ```
 
 3. **Add HeadSection.Razor**  
 Add a Razor-component called HeadSection.razor and add the following code:
 
-````html
-    @namespace Penser.Web.Shared.Razor
-    @using System.ComponentModel
-    
-    @inject PenserNet.Services.AppStateService appstate
-    
-    <!--Whatever tags you want-->
-    <title>@appstate.Title</title>
-    <base href="~/" />
-    
-    @code {
-        protected override async Task OnInitializedAsync()
-        {
-            appstate.PropertyChanged += (object sender, PropertyChangedEventArgs e) =>
+    ```html
+        @namespace Penser.Web.Shared.Razor
+        @using System.ComponentModel
+        
+        @inject PenserNet.Services.AppStateService appstate
+        
+        <!--Whatever tags you want-->
+        <title>@appstate.Title</title>
+        <base href="~/" />
+        
+        @code {
+            protected override async Task OnInitializedAsync()
             {
-                InvokeAsync(() =>
+                appstate.PropertyChanged += (object sender, PropertyChangedEventArgs e) =>
                 {
-                    StateHasChanged();
-                });
-            };
-            await base.OnInitializedAsync();
+                    InvokeAsync(() =>
+                    {
+                        StateHasChanged();
+                    });
+                };
+                await base.OnInitializedAsync();
+            }
         }
-    }
-````
+    ```    
 
 4. **In Pages/_host.cshtml**
 
     Replace your head tag with
     
-````html
-    <head>
-        <component type="typeof(Penser.Web.Shared.Razor.HeadSection)" render-mode="ServerPrerendered"/>
-    </head>
-````
+    ```html
+        <head>
+            <component type="typeof(Penser.Web.Shared.Razor.HeadSection)" render-mode="ServerPrerendered"/>
+        </head>
+    ```
 
 5. Now in your component inject the AppStateService
 
-````csharp
-    @inject AppStateService
-````
+    ```csharp
+        @inject AppStateService
+    ```
 
     and set the title
 
-````csharp
-    @code {
-        protected override async Task OnInitializedAsync()
-        {
-            appstate.Title = "Your title here";
+    ```csharp
+        @code {
+            protected override async Task OnInitializedAsync()
+            {
+                appstate.Title = "Your title here";
+            }
         }
-    }
-````
+    ```
 
 Even though calling a JavaScript to update the title might be less code, the solution above will also allow you to add some SEO data (since the HeadSection-component is ServerPrerendered).
