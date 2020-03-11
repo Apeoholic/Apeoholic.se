@@ -91,7 +91,7 @@ Add a Razor-component called HeadSection.razor and add the following code:
 
 5. Now in your component inject the AppStateService
 
-        @inject AppStateService
+        @inject AppStateService appstate
 
 
     and set the title
